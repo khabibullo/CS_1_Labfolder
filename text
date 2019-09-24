@@ -1,0 +1,45 @@
+q1) print("Hello, World!")
+q2)#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n%2!=0 or n in range(6,21)):
+        print("Weird")
+    else:
+        print("Not Weird")
+
+
+q3) if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+ans1 = a+b
+print(ans1)
+ans2 = a-b
+print(ans2)
+ans3 = a*b
+print(ans3)
+
+q4)
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+print(f"{a//b}\n{a/b}")
+
+
+q5)if __name__ == '__main__':
+    n = int(input())
+if (n<0) and (n>20):
+        print("Exit")
+else:
+    for i in range(0,n):
+        print(i*i)
+
